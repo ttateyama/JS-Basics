@@ -66,7 +66,12 @@ giveMeParameters("argument", "another argument");//"argument" and "another argum
 //""
 //0
 //false
-//I would just throw the value into an if statement
+//I would evaluate the case in a ternary like this:
+/**
+function truthFinder(bool) {
+  return bool ? true : false;
+}
+**/
 
 //////////////////PROBLEM 6////////////////////
 
